@@ -1,0 +1,12 @@
+
+<h2><%= @content %></h2>
+<br>
+<h3>What do you want to do?</h3>
+
+<form method="POST" action="/option_a">
+  <input type="submit" class="btn btn-large btn-primary" value="<%= @option_a %>"/>
+</form>
+
+<form method="POST" action="/option_b">
+  <input type="submit" class="btn btn-large btn-primary" value="<%= @option_b %>"/>
+</form>
